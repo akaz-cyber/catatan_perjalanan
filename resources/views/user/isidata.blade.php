@@ -38,95 +38,34 @@ Tambah Data
          <form>
 
             <div class="form-group row">
-              <label for="basic-input" class="col-sm-3 col-form-label">Basic Input</label>
+              <label for="basic-input" class="col-sm-3 col-form-label">Tanggal</label>
               <div class="col-sm-9">
                 <input type="text" id="basic-input" class="form-control">
               </div>
             </div>
 
             <div class="form-group row">
-              <label for="placeholder-input" class="col-sm-3 col-form-label">INPUT WITH PLACEHOLDER</label>
-              <div class="col-sm-9">
-                <input type="text" id="placeholder-input" class="form-control" placeholder="Enter Email Address">
+                <label for="basic-input" class="col-sm-3 col-form-label">Waktu</label>
+                <div class="col-sm-9">
+                  <input type="text" id="basic-input" class="form-control">
+                </div>
               </div>
-            </div>
 
-            <div class="form-group row">
-              <label for="disabled-input" class="col-sm-3 col-form-label">DISABLED INPUT</label>
-              <div class="col-sm-9">
-                <input type="text" id="disabled-input" disabled="disabled" class="form-control">
+              <div class="form-group row">
+                <label for="basic-input" class="col-sm-3 col-form-label">Lokasi</label>
+                <div class="col-sm-9">
+                  <input type="text" id="basic-input" class="form-control">
+                </div>
               </div>
-            </div>
 
-            <div class="form-group row">
-              <label for="readonly-input" class="col-sm-3 col-form-label">READONLY INPUT</label>
-              <div class="col-sm-9">
-                <input type="text" id="readonly-input" readonly="readonly" class="form-control">
+              <div class="form-group row">
+                <label for="basic-input" class="col-sm-3 col-form-label">Suhu Tubuh</label>
+                <div class="col-sm-9">
+                  <input type="text" id="basic-input" class="form-control">
+                </div>
               </div>
-            </div>
 
-            <div class="form-group row">
-              <label for="help-input" class="col-sm-3 col-form-label">INPUT TEXT WITH HELP</label>
-              <div class="col-sm-9">
-              <small class="text-muted">someone@example.com</small>
-              <input type="text" id="help-input" class="form-control">
-              </div>
-            </div>
-
-            <div class="form-group row">
-              <label for="staticEmail" class="col-sm-3 col-form-label">STATIC INPUT</label>
-              <div class="col-sm-9">
-               <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
-              </div>
-            </div>
-
-            <div class="form-group row">
-              <label for="rounded-input" class="col-sm-3 col-form-label">ROUNDED INPUT</label>
-              <div class="col-sm-9">
-                <input type="text" id="rounded-input" class="form-control form-control-rounded">
-              </div>
-            </div>
-
-            <div class="form-group row">
-              <label for="square-input" class="col-sm-3 col-form-label">SQUARE INPUT</label>
-              <div class="col-sm-9">
-                <input type="text" id="square-input" class="form-control form-control-square" placeholder="Enter Email Address">
-              </div>
-            </div>
-
-            <div class="form-group row">
-              <label for="basic-textarea" class="col-sm-3 col-form-label">TEXTAREA INPUT</label>
-              <div class="col-sm-9">
-                <textarea rows="4" class="form-control" id="basic-textarea"></textarea>
-              </div>
-            </div>
-
-            <div class="form-group row">
-              <label for="basic-select" class="col-sm-3 col-form-label">Select Input</label>
-              <div class="col-sm-9">
-                <select class="form-control" id="basic-select">
-                      <option>Option 1</option>
-                      <option>Option 2</option>
-                      <option>Option 3</option>
-                      <option>Option 4</option>
-                      <option>Option 5</option>
-                    </select>
-              </div>
-            </div>
-
-            <div class="form-group row">
-              <label for="multiple-select" class="col-sm-3 col-form-label">MULTIPLE SELECT</label>
-              <div class="col-sm-9">
-                <select multiple="multiple" class="form-control" id="multiple-select">
-                      <option>Option 1</option>
-                      <option>Option 2</option>
-                      <option>Option 3</option>
-                      <option>Option 4</option>
-                      <option>Option 5</option>
-                   </select>
-              </div>
-            </div>
-
+              <button type="button" class="btn btn-info btn-lg btn-round btn-block waves-effect waves-light m-1">Simpan</button>
          </form>
 
          </div>

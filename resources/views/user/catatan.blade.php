@@ -1,8 +1,5 @@
 @extends('layouts.master')
 @section('content')
-@section('title')
-Catatan Perjalanan
-@endsection
 <div class="row pt-2 pb-2">
     <div class="col-sm-9">
         <h4 class="page-title">Data Tables</h4>
@@ -38,12 +35,10 @@ Catatan Perjalanan
           <table id="default-datatable" class="table table-bordered">
             <thead>
                 <tr>
-                    <th>Name</th>
-                    <th>Position</th>
-                    <th>Office</th>
-                    <th>Age</th>
-                    <th>Start date</th>
-                    <th>Salary</th>
+                    <th>Tanggal </th>
+                    <th>Waktu</th>
+                    <th>Lokasi</th>
+                    <th>Suhu Tubuh</th>
                 </tr>
             </thead>
             <tbody>
@@ -52,16 +47,6 @@ Catatan Perjalanan
                     <td>System Architect</td>
                     <td>Edinburgh</td>
                     <td>61</td>
-                    <td>2011/04/25</td>
-                    <td>$320,800</td>
-                </tr>
-                <tr>
-                    <td>Garrett Winters</td>
-                    <td>Accountant</td>
-                    <td>Tokyo</td>
-                    <td>63</td>
-                    <td>2011/07/25</td>
-                    <td>$170,750</td>
                 </tr>
 
             </tbody>
